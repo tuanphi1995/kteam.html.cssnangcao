@@ -1,0 +1,46 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+htm{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    color: purple;
+}
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+.container{
+    width: 1140;
+    margin: auto;
+    background-color: lavender;
+    padding: 0 20px;
+
+}
+.content{
+    width: 70%;
+    float: left;
+}
+.form1{
+    border: block;
+}
+form{
+    width: 25%;
+    float: left;
+
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
